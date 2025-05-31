@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>MathSem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        span{
+            background-color: grey;
+            border-radius: 5px;
+        }
+        p{
+            position: static;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href = "https://www.youtube.com/watch?v=FQtPSH2ibYQ"><img style="position: relative; right: 500px;" src="mospolytech_logo_white.png"></a>
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-style: italic;">MATHSEM</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Главная</a></li>
+                <li><a href="./about.html">О проекте</a></li>
+                <li><a href="./members.html">Участники</a></li>
+                <li><a href="#">Журнал</a></li>
+                <li><a href="./recources.html">Ресурсы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Журнал проекта Mathsem</h2>
+        <h3>1. Изучение основ (03.02 – 24.02)</h3>
+        <p>
+            Команда погрузилась в алгебру логики и теорию множеств, разбирая ключевые концепции: логические операции, законы де Моргана и их применение в программировании. Эти знания стали основой для алгоритмов, анализирующих логические формулы и работающих с множествами данных.</p>
+            <h3>2. Распределение ролей (24.02)</h3>
+            <p>
+            Проект разделили на три направления:
+            
+                C++-разработчики – ядро программы и логические алгоритмы.
+            
+                Backend-разработчики – интеграция MySQL с веб-интерфейсом через Java.
+            
+                Frontend-разработчики – дизайн и вёрстка сайта (HTML/CSS/JS).
+            </p>
+            <h3>3. Прототип в Figma (24.02 – 25.03)</h3>
+            
+            <p>Создали адаптивные макеты для десктопа и мобильных устройств, продумав UX: навигацию, цветовую схему и компоненты. Это ускорило дальнейшую вёрстку.
+            </p>
+            <h3>4. Вёрстка сайта (25.03 – 30.04)</h3>
+            <p>
+            Реализовали адаптивный дизайн на HTML/CSS, используя Flexbox и Grid. Добавили анимации, SVG-графику для конструктора формул и обеспечили кросс-браузерность.
+            </p>
+            <h3>5. Интеграция БД и Backend (30.04 – 30.05)</h3>
+            <p>
+            Настроили:
+            
+                Авторизацию (Java + MySQL).
+            
+                Хранение формул в нормализованной БД.
+            
+                REST API для связи C++-ядра с фронтендом.
+            
+                Безопасность (подготовленные SQL-запросы, хеширование паролей).
+            
+            Теперь система сохраняет историю операций пользователей и работает стабильно.</p>
+            <img style="border-radius: 10px; height: 400px;" src="./assets/pratice1.jfif">
+            <img style="border-radius: 10px; height: 400px;" src="./assets/pratice2.jfif">
+            <img style="border-radius: 10px; height: 400px;" src="./assets/pratice3.jfif">
+    </main>
+
+    <footer>
+        <p>&copy; 2025, Московский Политех</p>
+    </footer>
+</body>
+</html>
